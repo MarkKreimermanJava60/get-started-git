@@ -1,13 +1,43 @@
+.boxes {
+    border: 5px solid;
+    height: 500px;
+    width: 700px;
+}
+
 .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    position: fixed;
+}
+
+.box1 {
+    background-color: blue;
+    left: 150px;
+    top: 150px;
+}
+
+.box2 {
+    background-color: yellow;
+    left: 225px;
+    top: 200px;
+}
+
+.box3 {
     background-color: black;
-    border: 3px solid red;
+    left: 300px;
+    top: 150px;
 }
 
-.text {
-    color: yellow;
+.box4 {
+    background-color: green;
+    left: 375px;
+    top: 200px;
 }
 
-.text2 {
-    color: yellow;
+.box5 {
+    background-color: red;
+    left: 450px;
+    top: 150px;
 }
-
